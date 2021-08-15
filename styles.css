@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-size: 15px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 720px;
+}
+
+section article:nth-child(1) {
+  background-color: #e38826;
+}
+
+section article:nth-child(1) button {
+  color: #e38826;
+}
+
+section article:nth-child(2) {
+  background-color: #006970;
+}
+
+section article:nth-child(2) button {
+  color: #006970;
+}
+
+section article:nth-child(3) {
+  background-color: #004241;
+}
+
+section article:nth-child(3) button {
+  color: #004241;
+}
+
+article {
+  width: 11%;
+  height: 450px;
+  text-align: left;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  line-height: 0.75cm;
+}
+
+article h1 {
+  font-size: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+article img {
+  margin-top: 20px;
+}
+
+article button {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 65px;
+  border-radius: 30px;
+  border-color: #f2f2f2;
+  border-width: 0;
+  width: 75%;
+  height: 13%;
+}
+/*# sourceMappingURL=styles.css.map */

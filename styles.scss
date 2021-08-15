@@ -1,0 +1,78 @@
+$Brightorange: hsl(31, 77%, 52%);
+$Darkcyan: hsl(184, 100%, 22%);
+$Verydarkcyan: hsl(179, 100%, 13%);
+
+$Transparentwhite: hsla(0, 0%, 100%, 0.75); //(paragraphs)
+$Verylightgray: hsl(0, 0%, 95%); //(background, headings, buttons)
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: $Transparentwhite;
+  text-align: center;
+  font-size: 15px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  article:nth-child(1) {
+    background-color: $Brightorange;
+    button {
+      color: $Brightorange;
+    }
+  }
+  article:nth-child(2) {
+    background-color: $Darkcyan;
+    button {
+      color: $Darkcyan;
+    }
+  }
+  article:nth-child(3) {
+    background-color: $Verydarkcyan;
+    button {
+      color: $Verydarkcyan;
+    }
+  }
+}
+
+article {
+  width: 11%;
+  height: 450px;
+  //display: inline-block;
+  text-align: left;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  line-height: 0.75cm;
+  h1 {
+    font-size: 40px;
+    font-family: "Big Shoulders Display", cursive;
+    color: $Verylightgray;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  img {
+    margin-top: 20px;
+  }
+  button {
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 65px;
+    border-radius: 30px;
+    border-color: $Verylightgray;
+    border-width: 0;
+    width: 75%;
+    height: 13%;
+  }
+}
